@@ -23,9 +23,9 @@
                         <div class="grid grid-cols-1">
                             <label class="form-label text-uppercase">nivel:</label>
                             <select name="nivel" class="form-control rounded" type="text">
-                                <option value="basico" @if($categoria->nivel=='basico') selected='selected' @endif>Básico</option>
-                                <option value="medio" @if($categoria->nivel=='medio') selected='selected' @endif>Medio</option>
-                                <option value="avanzado" @if($categoria->nivel=='avanzado') selected='selected' @endif>Avanzado</option>
+                                <option value="basic" @if($categoria->nivel=='basic') selected='selected' @endif>Basic</option>
+                                <option value="intermediate" @if($categoria->nivel=='intermediate') selected='selected' @endif>Intermediate</option>
+                                <option value="advanced" @if($categoria->nivel=='advanced') selected='selected' @endif>Advanced</option>
                             </select>
                         </div>
                         <div class="grid grid-cols-1">

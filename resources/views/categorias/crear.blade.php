@@ -23,9 +23,9 @@
                         <div class="grid grid-cols-1">
                             <label class="form-label text-uppercase">nivel:</label>
                             <select name="nivel" class="form-control rounded" type="text">
-                                <option value="basico">Básico</option>
-                                <option value="medio">Medio</option>
-                                <option value="avanzado">Avanzado</option>
+                                <option value="basic">Basic</option>
+                                <option value="intermediate">Intermediate</option>
+                                <option value="advanced">Advanced</option>
                             </select>
                         </div>
                         <div class="grid grid-cols-1">
